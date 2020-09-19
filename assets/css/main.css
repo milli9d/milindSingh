@@ -875,6 +875,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 		border: 0;
+		pointer-events:none;
 	}
 
 		.image.filtered:after {

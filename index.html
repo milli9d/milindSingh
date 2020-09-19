@@ -2,7 +2,7 @@
 <html>
 <head>
     <!-- Name of the page -->
-    <title>The TA</title>
+    <title>Ask The TA</title>
 
     <meta charset="utf-8" />
 
@@ -37,7 +37,7 @@
                         <br />
                         I also love to play guitar and listen to music in my leisure time.
                     </p>
-                    <br />
+                    <br>
                     <!-- This icons pane also resides below in the content pane , it has links to all my social media  -->
                     <h4>Social Media:</h4>
                     <ul class="icons">
@@ -66,8 +66,8 @@
                     </ul>
                 </div>
                 <!-- This is the spracer image -->
-                <div class="image filtered span-1-75" data-position="25% 25%">
-                    <img src="images/pic01.jpg" alt="" />
+                <div class="image filtered span-2-25" data-position="25% 25%">
+                    <img src="images/img1.jpg" alt="" />
                 </div>
             </section>
 
@@ -101,8 +101,8 @@
 
             <!-- Panel Previous Projects (Spotlight) -->
             <section class="panel banner color0" id="CurrentProjects">
-                <div class="intro span-5-50 color0">
-                    <h2 class="major">Previous Projects and Engagements..</h2>
+                <div class="intro span-2-50 color0">
+                    <h3 class="major">Previous Projects..</h3>
                     <div class="inner">
                         <ul class="actions stacked">
                             <li><a href="#ESPIOT" class="button medium"> ESP8266 - IoT </a> </li>
@@ -111,46 +111,104 @@
                             <li><a href="#PCLOGO" class="button medium"> Tic-Tac-Toe </a></li>
                             <li><a href="#PCLOGO" class="button medium"> Solar Tracking System </a></li>
                             <li><a href="#PCLOGO" class="button medium"> FPGA/ASIC Development </a></li>
+                            <li><a href="#Light" class="button medium"> Lighting Projects </a></li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            <section class="panel spotlight color4 left" id="ESPIOT">
+            <section class="panel spotlight color4 left" id="Light">
                 <div class="inner columns divided">
                     <div class="intro span-2">
-                        <h2 class="major">ESP Internet of Things </h2>
+                        <h2 class="major">Lighting Projects </h2>
+                        <p>
+                            Embedded Systems
+                            <br>Arduino Mega2560 , Arduino Nano
+                        </p>
                     </div>
                     <div class="span-3">
                         <h3>Motivation:</h3>
-                        <br>
                         <p>
-
+                            This is my first major undertaking as a project.The motivation for this device was my interest in music and my new found interest for Embedded Systems ,
+                            I wanted to design something I can add to my life and would be cool to show off to friends(obviously).
+                            So , I ordered in some LEDs , an Arduino Mega 2560 and fired up the Arduino IDE.
+                        </p>
+                        <p>
+                            I started with the infamous Blink sketch and then started incrementing it to show different fades and patterns,
+                            I like the idea of being able to change the color of your room , looking for how I can do that , I stumbled upon the Vixen DMX software ,
+                            this had the capability of syncing my lights to music , this came out of my first attempt.
                         </p>
                     </div>
                     <div class="span-3">
+                        <p style="text-align:center">
+                            <img width="360" src="images/Prototype.gif" alt="" />
+                        </p>
+                        <p>
+                            I wired up 6 LEDS and wrote a sketch for Vixen , this was a pretty resposive system and visualisation could be hand arranged and it also had transitions support.
+                            I planned to take this up a notch and ordered RGB50/50 LED Strips and a power supply to pair with it , the circuit was simple with a MOSFET controlling voltages on RGB terminals each.
+                        </p>
+                        <p>
+                    </div>
+
+
+                    <div class="span-3">
+
                         <h3>Experience:</h3>
-                        <br>
-                        <p>
 
+                        <p>
+                            The project took many iterations along the way and as I discovered the ease of using Arduino , I started experimenting with different forms.
+                            Most of my time was spent soldering the circuits together and fixing my bad solders(more than often).<br>At one point I even decided to Light up the entire room by sticking one across the ceiling,
+
+                            Needless to say that didn't end well for my small dainty power supply.
+                        </p>
+
+                        <p style="text-align:center">
+                            <img width="280" src="images/LightsRoom.gif" alt="" />
                         </p>
                     </div>
-                    <div class="span-3">
-                        <h3>Result:</h3>
-                        <br>
-                        <p>
 
+
+                    <div class="span-3">
+                        <p>
+                            A few fire hazards later , I pivoted to include some sort of wireless components to control this system.
+                            I found an android bluetooth app and some contributed code for this. The system worked flawlessy with a physical switch to switch modes.
+                        </p>
+                        <p>
+                            This project opened up a lot of avenues for me , I was really fascinated by the concept of making my own electronics as this was the closest to industrial work you can get in undergraduate first year.
+                            I was pretty satisfied by the whole system and learnt a lot along the way , namely Soldering, PCB Layout , Power Requirements , Arduino API , and did I mention there was Soldering!!!
+                        </p>
+                    </div>
+                    <div class="span-4">
+                        <p>
+                            This is the final iteration of the project , I used simple A4 sheets to make the cylinder diffusers and stick a strip on the edge of the table.
+                            I later developed some miniatures using an Arduino Nano and a 5V breakout board.
+                            <br>
+                            That was my manic first foray into the world of Embedded Systems.
+                            I have uploaded the full videos of the gifs in the links below.
+                        </p>
+                        <div class="inner columns aligned">
+                            <div class="span-2">
+                                <p style="text-align:center">
+                                    <img width="300" src="images/Vixen.gif" alt="" />
+                                </p>
+                            </div>
+                        </div>
+                        <p style="text-align:right">
+                            <a href="#CurrentProjects"
+                               class="button small"> Back </a>
+                            <ul class="icons">
+                            </ul>
                         </p>
                     </div>
                 </div>
-                <div class="image filtered tinted" data-position="top left">
+                <div class="image filtered tinted" data-position="25% 25%">
                     <img src="images/pic01.jpg" alt="" />
                 </div>
             </section>
 
 
             <!-- Panel Current Projects (Spotlight) -->
-            <section class="panel banner color0" id="CurrentProjects">
+            <section class="panel banner color0" id="PreviousProjects">
                 <div class="intro span-2-50 color0">
                     <h2 class="major">Current Projects..</h2>
                     <div class="inner">
@@ -188,9 +246,11 @@
                         <p>
 
                         </p>
+                        <a href="#PreviousProjects"
+                           class="button small"> Back </a>
                     </div>
                 </div>
-               
+
             </section>
 
             <!-- Copyright -->
