@@ -1,85 +1,208 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE html>
 <html>
-	<head>
-		<title>Milind Singh</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <!-- Name of the page -->
+    <title>The TA</title>
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+    <meta charset="utf-8" />
 
-				<!-- Wrapper -->
-					<div id="wrapper">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no" />
 
-						<!-- Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="content color0 span-3-75">
-									<h1 class="major">Hi,<br />
-									I am Milind</h1>
-									<p>This is <strong>a collection of my projects and interests</strong>, I like programming Embedded Systems and I am always open to learning something new. 
-									<br>
-									I also love to play guitar and listen to music in my leisure time. 
-									</p>
-									<br>
+    <link rel="stylesheet" href="assets/css/main.css" />
 
-									<h4>Social Media:</h4>
-										<ul class="icons">
-											<li><a href="https://www.linkedin.com/in/millind-singh-47b366112/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-											<li><a href="https://github.com/milli9d" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-											<li><a href="https://www.facebook.com/MilliTan2110" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="https://www.instagram.com/milli9d/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											</ul>
-									<ul class="actions">
-										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
-									</ul>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+<body class="is-preload">
+    <!-- Landing Page - Panels live on pages , this page will have all info on panels -->
+    <div id="page-wrapper">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Intro Panel (Banner Right Aligned) -->
+            <section class="panel banner right" id="home">
+                <!-- Make content pane inside Intro Panel , span it 3.75 units -->
+                <div class="content color0 span-3-75">
+                    <!--  Major is Underlined Bold Text  -->
+                    <h1 class="major">
+                        Hi,<br />
+                        This is Milind
+                    </h1>
+                    <p>
+                        And this is
+                        <strong>a collection of my projects and interests</strong>, I like
+                        programming Embedded Systems and I am always open to learning
+                        something new.
+                        <br />
+                        I also love to play guitar and listen to music in my leisure time.
+                    </p>
+                    <br />
+                    <!-- This icons pane also resides below in the content pane , it has links to all my social media  -->
+                    <h4>Social Media:</h4>
+                    <ul class="icons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/millind-singh-47b366112/"
+                               class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/milli9d"
+                               class="icon brands fa-github"><span class="label">GitHub</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/MilliTan2110"
+                               class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/milli9d/"
+                               class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+                        </li>
+                    </ul>
+                    <ul class="actions">
+                        <li>
+                            <a href="#music"
+                               class="button primary color1 circle icon solid fa-angle-right">Next</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- This is the spracer image -->
+                <div class="image filtered span-1-75" data-position="25% 25%">
+                    <img src="images/pic01.jpg" alt="" />
+                </div>
+            </section>
 
-								</div>
-								<div class="image filtered span-1-75" data-position="25% 25%">
-									<img src="images/pic01.jpg" alt="" />
-								</div>
+            <!-- Panel (Spotlight) -->
+            <section class="panel spotlight color0" id="music">
+                <div class="intro span-2">
+                    <h2 class="major">Good Vibes</h2>
+                    <p>
+                        Music has the ability to transform the mind , space and thought of
+                        a human being. Tap into this magical vibe by introducing some
+                        music in your life.
+                        <br />
+                        Listen to some music while you explore..
+                    </p>
+                </div>
+                <div class="content span-3">
+                    <iframe height="200"
+                            src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1&controls=0"
+                            frameborder="0"
+                            allow="autoplay"></iframe>
+                </div>
+                >
+                <div class="image filtered tinted" data-position="top left">
+                    <img src="images/pic02.jpg" alt="" />
+                </div>
+            </section>
+            <!-- Copyright -->
+            <div class="copyright">
+                &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+            </div>
 
-							</section>
+            <!-- Panel Previous Projects (Spotlight) -->
+            <section class="panel banner color0" id="CurrentProjects">
+                <div class="intro span-5-50 color0">
+                    <h2 class="major">Previous Projects and Engagements..</h2>
+                    <div class="inner">
+                        <ul class="actions stacked">
+                            <li><a href="#ESPIOT" class="button medium"> ESP8266 - IoT </a> </li>
+                            <li><a href="#PCLOGO" class="button medium"> Air Guitar </a> </li>
+                            <li><a href="#PCLOGO" class="button medium"> JDBC WebServer / Client </a></li>
+                            <li><a href="#PCLOGO" class="button medium"> Tic-Tac-Toe </a></li>
+                            <li><a href="#PCLOGO" class="button medium"> Solar Tracking System </a></li>
+                            <li><a href="#PCLOGO" class="button medium"> FPGA/ASIC Development </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight medium right" id="first">
-								
-								<div class="content span-5">
-									<h2 class="major">Good Vibes</h2>
-									<p> Music has the ability to transform the mind , space and thought of a human being. Tap into this magical vibe by introducing some music in your life.
-									<br>
-									 Listen to some music while you explore..</p>
-								</div>
-								<div class="content span-6">
-									<iframe height="200" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1&controls=0" frameborder="0" allow="autoplay"></iframe>
-								</div>>
-								<div class="image filtered tinted" data-position="top left">
-									<img src="images/pic02.jpg" alt="" />
-								</div>
-							</section>
+            <section class="panel spotlight color4 left" id="ESPIOT">
+                <div class="inner columns divided">
+                    <div class="intro span-2">
+                        <h2 class="major">ESP Internet of Things </h2>
+                    </div>
+                    <div class="span-3">
+                        <h3>Motivation:</h3>
+                        <br>
+                        <p>
 
-							
+                        </p>
+                    </div>
+                    <div class="span-3">
+                        <h3>Experience:</h3>
+                        <br>
+                        <p>
 
-						
-										
-									
-								
-							
-						<!-- Copyright -->
-							<div class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+                        </p>
+                    </div>
+                    <div class="span-3">
+                        <h3>Result:</h3>
+                        <br>
+                        <p>
 
-					</div>
+                        </p>
+                    </div>
+                </div>
+                <div class="image filtered tinted" data-position="top left">
+                    <img src="images/pic01.jpg" alt="" />
+                </div>
+            </section>
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/main.js"></script>
+            <!-- Panel Current Projects (Spotlight) -->
+            <section class="panel banner color0" id="CurrentProjects">
+                <div class="intro span-2-50 color0">
+                    <h2 class="major">Current Projects..</h2>
+                    <div class="inner">
+                        <ul class="actions stacked">
+                            <li><a href="#PCLOGO" class="button medium">ESP8266 PC Logo</a> </li>
+                            <li><a href="#PCLOGO" class="button medium">TinySTL</a> </li>
+                            <li><a href="#PCLOGO" class="button medium">This Website</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
 
-	</body>
+            <section class="panel spotlight color4 left" id="PCLOGO">
+                <div class="inner columns divided">
+                    <div class="intro span-2">
+                        <h2 class="major">ESP PC Logo Port </h2>
+                    </div>
+                    <div class="span-3">
+                        <h3>Motivation:</h3>
+                        <br>
+                        <p>
+
+                        </p>
+                    </div>
+                    <div class="span-3">
+                        <h3>Experience:</h3>
+                        <br>
+                        <p>
+
+                        </p>
+                    </div>
+                    <div class="span-3">
+                        <h3>Result:</h3>
+                        <br>
+                        <p>
+
+                        </p>
+                    </div>
+                </div>
+               
+            </section>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                &copy; Milind.Design <a href="https://html5up.net">HTML5 UP</a>.
+            </div>
+        </div>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
