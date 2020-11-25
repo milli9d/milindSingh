@@ -118,7 +118,7 @@
                     <div class="inner">
                         <ul class="actions stacked">
                             <li><a href="#ESPIOT" class="button medium"> ESP8266 - IoT </a> </li>
-                            <li><a href="#PCLOGO" class="button medium"> Air Guitar </a> </li>
+                            <li><a href="#AGUITAR" class="button medium"> Air Guitar </a> </li>
                             <li><a href="#PCLOGO" class="button medium"> JDBC WebServer / Client </a></li>
                             <!--<li><a href="#PCLOGO" class="button medium"> Tic-Tac-Toe </a></li>-->
                             <li><a href="#PCLOGO" class="button medium"> Solar Tracking System </a></li>
@@ -343,6 +343,56 @@
                         </a>
                     </div>
                 </div>-->
+            </section>
+
+            <section class="panel spotlight color4 left" id="AGUITAR">
+                <div class="inner columns divided">
+                    <div class="intro span-1-5">
+                        <h2 class="major">Air Guitar </h2>
+                        <p>
+                            Embedded Systems
+                            <br>Teensy 3.2 | Wearable Device
+                        </p>
+                    </div>
+                    <div class="span-2-5">
+                        <p>
+                            This project was submitted as capstone project for Real-Time Embedded Systems. I enjoy playing guitar in my free time , so this was very intriguing for me.
+                        </p>
+                        <p>
+                            The goal was to use a Teensy 3.2 (ARM Cortex-M0+) , ADXL343 (I2C Accelerometer) and Teensy Audio Shield to emulate your guitar.
+                        </p>
+                    </div>
+
+                    <div class="span-3-5">
+                        <p>
+                            So I decided to design a system where the ADXL343 sends out an activation trigger in the form of a TAP interrupt. Then the system decides which chord to play based on the user controls (Conductive Tape on a Plastic Glove).
+                        </p>
+                        <p>
+                            The Teensy Audio Shield was capable of playing back audio files from a SD card.
+                            I wanted to emulate a real guitar so I decided to go with real recorded samples from my acoustic guitar. I recorded multiple samples of up and down strokes of the 4 chords we were required to play.
+                        </p>
+                    </div>
+
+                    <div class="span-2-5">
+                        <p>
+                            The final step was to design an audio mixer in software which could handle rapid , partial and complete strokes accordingly. This sound mixer would quickly fade out the old playing sound and fade in a new sound. The sound mixer also randomizes which sample of the chord to play.
+                        </p>
+                        <p>
+                            When working in tandem the systems combined emulated an acoustic guitar with quite natural sound reporduction and response.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="intro span-2-50 color1">
+                    <h3 class="major">ESP- Internet of Things</h3>
+                    <div class="inner">
+                        <ul class="actions stacked">
+                            <li><a href="#TICTACTOE" class="button medium"> TIC-TAC-TOE </a> </li>
+                            <li><a href="#WEATHER" class="button medium"> Weather Station </a> </li>
+                            <li><a href="#SERVER" class="button medium"> ESP WebServer / Client </a></li>
+                        </ul>
+                    </div>
+                </div>
             </section>
 
             <!--<div class="inner columns aligned">
