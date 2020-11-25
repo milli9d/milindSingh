@@ -225,9 +225,9 @@
                 </div>
             </section>
 
-            <section class="panel color4 left" id="TICTACTOE">
+            <section class="panel color1 left" id="TICTACTOE">
 
-                <div class=" intro span-4 ">
+                <div class=" intro span-4-25 ">
                     <h3 class="major">ESP8266 Tic-Tac-Toe:</h3>
                     <h5 class="major">Touch Screen Game Console</h5>
                     <p>
@@ -235,11 +235,16 @@
                         where the students form teams and develop any multiplayer game of their choice on their versatile Adafruit Kits.
                     </p>
                     <p>
-                        To serve as a model for students and to test it's doable in the limited session time per day,
+                        To serve as a model for students and to test feasability in the limited session time per day,
                         I developed a simple Tic-Tac-Toe game with the ILI9341 TFT Screen in the kit. This screen had a touch panel for input.This is the result of what I developed overnight that day.
                     </p>
                     <p>
                         We had a great session the next day , there were quite a few games on display after the students were done. Snake, Pong, Hangman and Trivia to name a few.
+                    </p>
+
+                    <p style="text-align:right">
+                        <a href="#ESPIOT"
+                           class="button small"> Back </a>
                     </p>
                 </div>
 
@@ -259,6 +264,85 @@
                         </a>
                     </div>
                 </div>
+            </section>
+
+            <section class="panel color4 left" id="WEATHER">
+
+                <div class=" intro span-4 ">
+                    <h3 class="major">ESP8266 Weather Station:</h3>
+                    <h5 class="major">Time and Weather Forecast</h5>
+                    <p>
+                        This project was co-authored with another tutor from the team. We wanted to explain how to fetch text/JSON APIs and parse them on the Microcontrollers.
+                    </p>
+                    <p>
+                        The project required the students to fetch NTP (National Time Protocol) and OpenWeather API to their ESP8266 through the client driver. Then they parse the fetched APIs into useful information.
+                    </p>
+                    <p>
+                        The final goal of the project was to display this data alongside suitable icons on the ILI9341 TFT screen.
+                    </p>
+                    <p style="text-align:right">
+                        <a href="#ESPIOT"
+                           class="button small"> Back </a>
+                    </p>
+                </div>
+
+                <!--<div class="inner columns divided">
+                    <div class="gallery">
+                        <a href="images/tictactoe-startup.gif"
+                           class="image filtered span-2"
+                           data-position="center">
+                            <img src="images/tictactoe-startup.gif" alt="" />
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="images/tictactoe-gameplay.gif"
+                           class="image filtered span-2"
+                           data-position="center">
+                            <img src="images/tictactoe-gameplay.gif" alt="" />
+                        </a>
+                    </div>
+                </div>-->
+            </section>
+
+            <section class="panel color4 left" id="WEBSERVER">
+
+                <div class=" intro span-4 ">
+                    <h3 class="major">ESP8266 Web Server:</h3>
+                    <h5 class="major">Control peripherals through internet</h5>
+                    <p>
+                        The ESP Web Server was added to the Internet of Things program in the second iteration of the course. The motiation behind this was to explore how to manage signals over the network fetaures of the Arduino Core drivers for ESP8266.
+                    </p>
+                    <p>
+                        The WebServer project encompassed the following features
+                        <ul>
+                            <li> ESP8266 functions as both Server and Client.
+                            <li> The Server code hosts a complete HTML website on a LAN port.
+                            <li> Various peripherals (LED , ADC , PWM) can be controlled through this website.
+                            <li> Firmware OTA update (ESP8266).
+                            <li> Fetch quotes from text APIs to display on webpage.
+                        </ul>
+                    <p style="text-align:right">
+                        <a href="#ESPIOT"
+                           class="button small"> Back </a>
+                    </p>
+                </div>
+
+                <!--<div class="inner columns divided">
+                    <div class="gallery">
+                        <a href="images/tictactoe-startup.gif"
+                           class="image filtered span-2"
+                           data-position="center">
+                            <img src="images/tictactoe-startup.gif" alt="" />
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="images/tictactoe-gameplay.gif"
+                           class="image filtered span-2"
+                           data-position="center">
+                            <img src="images/tictactoe-gameplay.gif" alt="" />
+                        </a>
+                    </div>
+                </div>-->
             </section>
 
             <!--<div class="inner columns aligned">
@@ -337,7 +421,7 @@
 
                     <div class="gallery">
                         <a href="images/Vixen.gif"
-                           class="image filtered span-3"
+                           class="image filtered span-4"
                            data-position="center">
                             <img src="images/Vixen.gif" alt="" />
                         </a>
@@ -355,11 +439,10 @@
                             That was my manic first foray into the world of Embedded Systems.
                             I have uploaded the full videos of the gifs in the links below.
                         </p>
+
                         <p style="text-align:right">
-                            <a href="#PreviousProjects"
-                               class="button small"> Back </a>
-                            <ul class="icons">
-                            </ul>
+                            <a href="#PreviousProjects" class="button small"> Back </a>
+                            <ul class="icons">                          </ul>
                         </p>
                     </div>
                 </div>
