@@ -362,7 +362,6 @@
                             The open-ended requirements of the design allowed for a lot of optimisation and added functionality. I designed a multi-threaded transactional server , which could handle clients on seperate dedicated threads.
                         </p>
                     </div>
-
                     <div class="span-3-5">
                         <p>
                             Transactional, in this context, meaning that all communications between the server and client take place on a transactional connection i.e. the conection exists only for the duration of that transaction event.
@@ -373,7 +372,20 @@
                             This allowed the system to process transactions rapidly and concurrently. The system used thread-safe communications with SQLite through JDBC to ensure there are no R/W collisions.
                         </p>
                     </div>
-
+                    <div class="gallery">
+                        <a href="images/SERVERUI.gif"
+                           class="image"
+                           data-position="center">
+                            <img src="images/SERVERUI.gif" alt="" />
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <a href="images/CLIENTUI.gif"
+                           class="image"
+                           data-position="center">
+                            <img src="images/CLIENTUI.gif" alt="" />
+                        </a>
+                    </div>
                     <div class="span-2-5">
                         <p>
                             I made a GUI shell for the system using JavaFX Swing , which is a mostly thread-safe GUI container library.
